@@ -9,7 +9,7 @@ margin: auto;
 export const Row = styled.div`
 display: flex;
 flex-wrap: wrap;
-gap: 4px;
+gap: 5px;
 align-items: center;
 margin: 3% 0;
 `;
