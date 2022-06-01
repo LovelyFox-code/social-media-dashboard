@@ -12,6 +12,8 @@ flex-wrap: wrap;
 gap: 5px;
 align-items: center;
 margin: 3% 0;
+justify-content: ${props => props.spaceBetween ? "space-between" : "normal"};
+width: ${props => props.spaceBetween ? "100%" : "normal"}; ;
 `;
 
 export const Div = styled.div`
