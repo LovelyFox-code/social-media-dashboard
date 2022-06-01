@@ -29,6 +29,7 @@ font-weight: 700;
 font-size: 14px;
 line-height: 17px;
 color: #8C98C6;
+margin: 0;
 
 `;
 export const Span = styled.span`

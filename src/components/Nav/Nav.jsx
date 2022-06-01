@@ -4,7 +4,7 @@ import styled from "styled-components";
         display: flex;
         align-items: center;
         justify-content: space-between;
-
+        padding: 3% 0;
     `;
 
     export default Nav;

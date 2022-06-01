@@ -11,6 +11,7 @@ display: flex;
 flex-wrap: wrap;
 gap: 4px;
 align-items: center;
+margin: 3% 0;
 `;
 
 export const Div = styled.div`
