@@ -2,16 +2,15 @@
 import './App.css';
 import Card from './components/Card/Card';
 import { H1, H3, P, Span, Number } from './components/Typography/Typography';
-import ModeBtn from './components/ModeBtn/ModeBtn';
+import {Ball, Label, Input, ModeBtn }from './components/ModeBtn/ModeBtn';
 import Nav from './components/Nav/Nav';
 import { Div, Row, Section } from './components/Grid/Grid';
 import data from "./data/data.json";
 
 function App() {
-
   return (
     <div className="App">
-      <Section>
+      <Section> 
         <Nav>
           <Div>
             <H1>Social Media Dashboard</H1>
@@ -20,7 +19,11 @@ function App() {
           <Div>
             <Row>
             <P>Dark Mode</P>
-            <ModeBtn></ModeBtn>
+            
+            <ModeBtn>
+            <Input/>
+              <Label></Label>
+            </ModeBtn>
             </Row>
           </Div>
         </Nav>
