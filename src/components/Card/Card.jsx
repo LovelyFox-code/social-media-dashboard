@@ -9,6 +9,6 @@ const Card = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 4px solid #178FF5;
+    border-top: ${props =>props.big ? "4px solid #178FF5" : "none" }
 `;
 export default Card;
