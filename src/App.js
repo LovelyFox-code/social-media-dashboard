@@ -2,7 +2,7 @@
 import './App.css';
 import Card from './components/Card/Card';
 import { H1, H3, P, Span, Number } from './components/Typography/Typography';
-import {Ball, Label, Input, ModeBtn }from './components/ModeBtn/ModeBtn';
+import {Label, Input, ModeBtn }from './components/ModeBtn/ModeBtn';
 import Nav from './components/Nav/Nav';
 import { Div, Row, Section } from './components/Grid/Grid';
 import data from "./data/data.json";
